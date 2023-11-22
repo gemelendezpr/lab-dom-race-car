@@ -43,12 +43,8 @@ class Player {
             this.directionY *= -1
         }
 
-        
-        // Ensures the player's car stays within the boundaries of the game screen by checking and adjusting the left and top properties.
-
         this.updatePosition()
         
-
     }
 
     updatePosition() {
